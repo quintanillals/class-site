@@ -15,7 +15,7 @@ ul {
   list-style: none;
   font-family: Helvetica;
   font-size: 20px;
-  border: 2px  black;
+  /* border: 2px  black; */
 }
 
 .wrapper {
