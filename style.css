@@ -19,19 +19,18 @@ ul {
 .wrapper {
         text-align: center;
 }
-  .wrapper ul {
-        display: inline-block;
+
+.wrapper ul {
         margin: 0;
         padding: 0;
         /* For IE, the outcast */
         zoom:1;
-        *display: inline;
-    }
+}
 .wrapper li {
-        float: left;
+        float: center;
         padding: 2px 5px;
         border: 1px solid black;
-    }
+}
 .gif{
   text-align: center;
   display: block;
