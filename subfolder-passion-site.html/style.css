@@ -1,0 +1,28 @@
+
+p {text-align: center;}
+div {text-align: center;}
+.column {
+float: left;
+width: 100%;
+padding: 10px;
+}
+
+.column img {
+margin-top: 12px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+h1{
+  font-size: 16px;
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: normal;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+}
