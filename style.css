@@ -14,6 +14,7 @@ p{
 ul {
   list-style: none;
   font-family: Helvetica;
+  font-size: 12px;
 }
 
 .wrapper {
