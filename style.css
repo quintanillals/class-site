@@ -18,17 +18,10 @@ ul {
 }
 
 .wrapper {
-        text-align: center;
+  text-align: center;
 }
 
-.gif img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.gif {
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
