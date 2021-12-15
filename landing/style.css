@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  /* margin: 0px; */
+  font-family: 'Roboto Mono', monospace;
+  font-size: 36px;
+  line-height: 1.25;
+  /* min-height: calc(500px + 100vh); */
+  text-align: center;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover{
+  cursor: grab;
+}
+
+.section {
+  margin: auto;
+  padding: 200px;
+  padding-top: 400px;
+  text-align: center;
+  z-index: -4;
+}
+
+canvas{
+  width: 100%;
+  height: 100%
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section.cube-head {
+  position: fixed;
+  top: -10px;
+  /* left: -70px; */
+  z-index: 3;
+}
+
+section.spinning-cube{
+  position: fixed;
+  z-index: 10;
+}
+
+
+
+/* section. {
+  height: 200px;
+} */
+
+/* #Top of the List! {
+  background: #000000;
+}
+
+#Heatwave {
+  background: #000000;
+}
+
+#What can you do? What can be done? {
+  background: #000000;
+} */
+
+/* .nav {
+  --nav-gap: 15px;
+  padding: var(--nav-gap);
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-item {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: var(--nav-gap);
+}
+
+.nav-link:hover ~ .nav-label {
+  opacity: 1;
+}
+
+.nav-label {
+  color: #000000;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+.nav-link {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  height: var(--nav-gap);
+  margin-left: var(--nav-gap);
+  transition: transform 0.1s;
+  width: var(--nav-gap);
+}
+
+.nav-link-selected {
+  background: #000000;
+  transform: scale(1.4);
+} */

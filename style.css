@@ -7,7 +7,33 @@ a {
   text-decoration: none;
 }
 
+p{
+  font-family: Helvetica;
+}
+
 ul {
   list-style: none;
   font-family: Helvetica;
+}
+
+.wrapper {
+        text-align: center;
+}
+  .wrapper ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        /* For IE, the outcast */
+        zoom:1;
+        *display: inline;
+    }
+.wrapper li {
+        float: left;
+        padding: 2px 5px;
+        border: 1px solid black;
+    }
+.gif{
+  text-align: center;
+  display: block;
+  max-width: 200px;
 }
