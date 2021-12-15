@@ -20,18 +20,14 @@ ul {
         text-align: center;
 }
 
-/* .wrapper ul {
-        margin: 0;
-        padding: 0;
+.gif img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.wrapper li {
-        float: center;
-        padding: 2px 5px;
-        border: 1px solid black;
-} */
-
-.gif img {
+.gif {
   display: block;
   margin-left: auto;
   margin-right: auto;
